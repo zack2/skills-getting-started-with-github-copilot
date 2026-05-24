@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
             `<li class="participant-item">
               <span class="participant-email">${participant}</span>
               <button class="delete-participant" title="Remove participant" data-activity="${name}" data-email="${participant}">
-                <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width                uvicorn src.app:app --reload"16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="10" cy="10" r="10" fill="#ffebee"/>
                   <path d="M6 6L14 14M14 6L6 14" stroke="#c62828" stroke-width="2" stroke-linecap="round"/>
                 </svg>
